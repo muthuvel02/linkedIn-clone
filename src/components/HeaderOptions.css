@@ -1,0 +1,27 @@
+.headerOptions
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:20px;
+    color: gray;
+    cursor:pointer;
+
+}
+.headerOptions :hover
+{
+    color: black;
+}
+.headerOptions__title
+{
+    font-size: 12px;
+    font-weight: 400;
+}
+.headerOption__icon
+{
+    object-fit: contain;
+    height:25px !important;
+    width: 25px !important;
+    color:#5A5A5A;
+
+}
